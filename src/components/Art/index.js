@@ -1,5 +1,3 @@
-import { Link, animateScroll as scroll } from "react-scroll";
-
 import art1 from "../../myArt/dgkosenpai2.png";
 import art2 from "../../myArt/anyalast.png";
 import art3 from "../../myArt/ardayeni.png";
