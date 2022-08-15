@@ -1,0 +1,52 @@
+.art-container{
+    padding-top: 10px;
+    overflow-y: scroll;
+    height: 680px;
+    div{
+        margin-left: 35%;
+        display: block;
+    img{
+        z-index: 15;
+        position: relative;
+        border: solid 5px black;
+        transition: 0.3s;
+        &:hover{
+            box-shadow: 0 0 15px gray;
+            transition: 0.3s;
+            cursor: pointer;
+
+        &:active{
+            opacity: 0;
+        }
+        }
+        
+    }
+        h3 {
+            text-align: center;
+            width: 512px;
+            font-size: 20px;
+            color: azure;
+            text-shadow: 2px 2px black;
+            transform: translateY(-55px);
+        }
+
+        h4{
+            z-index: 1;
+            text-align: center;
+            width: 512px;
+            font-size: 20px;
+            color: azure;
+            text-shadow: 2px 2px black;
+            transform: translateY(-256px);
+        }
+    }
+}
+
+#big{
+    height: auto;
+    width: 512px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

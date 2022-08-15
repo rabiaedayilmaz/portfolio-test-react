@@ -1,0 +1,145 @@
+.nav-bar {
+    background: #181818;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+}
+
+.mainAnya{
+    display: block;
+    margin: 20px auto;
+    background-image: url("../../assets/anya-tea.jpg");
+    width: 80px;
+    height: 80px;
+    background-size: 80px 80px;
+    transition: .3s ease;
+
+    &:hover{
+        transition: .3s ease;
+        background-image: url("../../assets/anya-tea2.jpg");
+        animation:tilt-n-move-shaking 1s linear infinite;
+    }
+}
+
+.logo {
+    &:hover{
+        animation:tilt-n-move-shaking 1s linear infinite;
+    }
+    
+    .sub-mainLogo{
+        width: 70px;
+        padding-left: 15px;
+        text-align: center;
+        height: auto;
+    }
+}
+
+
+nav {
+    display: block;
+    text-align: center;
+    position: absolute;
+    height: 210px;
+    top: 50%;
+    margin-top: -120px;
+    width: 100%;
+    text-decoration: none;
+        
+    }
+
+    a {
+        font-size: 22px;
+        color: #4d4d4e;
+        display: block;
+        line-height: 51px;
+        height: 51px;
+        position: relative;
+        text-decoration: none;
+    
+        i {
+            transition: all 0.3s ease-out;
+        }
+    
+        &:hover {
+            color: #c1f5fe;
+            
+    
+            svg {
+                color: aliceblue;
+                opacity: 0.4;
+            }
+    
+            &:after {
+                opacity: 1;
+            }
+        }
+    
+        &:after {
+            content: "";
+            font-size: 9px;
+            letter-spacing: 2px;
+            position: absolute;
+            bottom: 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+            }
+    }
+
+    a.home-link{
+        &:after{
+            content: "HOME";
+        } 
+    }
+
+    a.art-link{
+        &:after{
+            content: "ART";
+        }
+    }
+
+    a.blog-link{
+        &:after{
+            content: "BLOG";
+        }
+    }
+
+    a.book-link{
+        &:after{
+            content: "BOOK";
+        }
+    }
+
+    a.cv-link{
+        &:after{
+            content: "CV";
+        }
+    }
+
+    a.contact-link{
+        &:after{
+            content: "CONTACT";
+        }
+    }
+
+    a.about-link{
+        &:after{
+            content: "ABOUT";
+        }
+    }
+
+@keyframes tilt-n-move-shaking {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(7deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-5px, 5px) rotate(-10deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+    }
+
+
