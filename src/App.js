@@ -9,7 +9,6 @@ import Blog from "./components/Blog";
 import CV from "./components/CV";
 
 import "./App.scss";
-import Loader from "react-loaders";
 
 export default function App(){
   return (
