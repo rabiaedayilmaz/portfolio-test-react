@@ -11,7 +11,7 @@ import { faHome, faSuitcase, faPalette, faFeatherPointed, faChessQueen, faPaperP
 const Sidebar = () => (
     <div className="nav-bar">
         <div className="mainAnya">
-            <a href="https://www.goodreads.com/user/show/143662427-eda-yilmaz"
+            <a href="https://medium.com/@rabiaedayilmaz"
                 target="_blank" rel="noreferrer" />
         </div>
     <Link className="logo" to="/">
@@ -26,9 +26,6 @@ const Sidebar = () => (
         </NavLink>
         <NavLink className="blog-link" activeclassname="true" to="/blog">
             <FontAwesomeIcon icon={faFeatherPointed} color="#4d4d4e" />
-        </NavLink>
-        <NavLink className="cv-link" activeclassname="true" to="/cv">
-            <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
         <NavLink className="about-link" activeclassname="true" to="/about">
             <FontAwesomeIcon icon={faChessQueen} color="#4d4d4e" />

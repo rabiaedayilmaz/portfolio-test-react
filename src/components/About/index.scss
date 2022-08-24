@@ -1,27 +1,54 @@
 .about-container{
     display: flex;
     background: -webkit-gradient(linear, left top, left bottom, from(#C9A9A6), to(#702963)) fixed;
+    animation: gradient 15s ease infinite;
 }
 
 .about-text{
     font-size: 25px;
-    justify-content: center;
-
-    p{
-        width: 600px;
-        transform: translateX(-200px);
-        color:  #F0F8FF;
-        text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
-               1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
-        padding-top: 200px;
+    padding-top: 150px;
+    transform: translateX(-250px); 
+    &:hover{
+        opacity: 0.8;
     }
 }
 
+.about-box{
+    border: solid 10px rgb(233, 223, 223);
+    border-radius: 3px;
+    background-color: rgb(233, 223, 223);
+    transition: 0.3s;
+    &:hover {
+        transform: rotateY(-10deg) skewY(7deg);
+        background: linear-gradient(90deg, #7EE8FA 0%, #9FA4C4 45%, #EEC0C6 100%); 
+    }
+}
+
+.me-part{
+        width: 700px;
+        height: auto;
+        color:  black;
+        border-radius: 3px;
+        outline: 15px solid black;
+        transition: 0.3s;
+        &:hover {
+            transform: rotateY(4deg) skewY(-9deg);
+    }
+}
 
 .anya-about{
     width: 300px;
     height: 300px;
-    margin-left: 40%;
-    padding-top: 357px;
+    margin-left: 30%;
+    padding-top: 360px;
     transform: translateX(-200px);
+    transition: 0.3s;
+    &:hover{
+        scale: 1.03;
+        transition: 0.3s;
+        padding-left: 10px;
+    }
 }
+
+@font-face { font-family: september; 
+    src: url('../../assets/HalloweenHoroscope.ttf'); } 
