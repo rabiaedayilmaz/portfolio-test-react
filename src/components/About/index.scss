@@ -1,5 +1,7 @@
 .about-container{
     display: flex;
+    overflow-x: auto;
+    overflow-y: auto;
     background: -webkit-gradient(linear, left top, left bottom, from(#C9A9A6), to(#702963)) fixed;
     animation: gradient 15s ease infinite;
 }
