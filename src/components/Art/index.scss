@@ -66,10 +66,16 @@
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #da95a1;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #db7093
+    ;
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    background: #a1526c;
+    ;
   }
