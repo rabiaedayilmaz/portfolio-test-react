@@ -9,6 +9,7 @@ import art9 from "../../myArt/rengokulast.png";
 import art10 from "../../myArt/renkliel2.png";
 import art11 from "../../myArt/toto2.png";
 import art12 from "../../myArt/bmo.png";
+import art13 from "../../myArt/dragon.png";
 
 import Layout from "../Layout";
 import "./index.scss";
@@ -63,6 +64,12 @@ const Art = () => {
                         <img src={art12} alt="art 12"/>
                         <h4>Pasta Dance!!</h4>
                         <h3>BMO | 16.08.22</h3>
+                    </div>
+
+                    <div className="square-photo reveal fade-bottom">
+                        <img src={art13} alt="art 13"/>
+                        <h4>hey, its me</h4>
+                        <h3>Dragon Eda | 23.09.22</h3>
                     </div>
 
                     <div className="square-photo reveal fade-bottom">
