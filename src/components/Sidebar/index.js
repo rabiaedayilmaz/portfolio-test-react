@@ -11,7 +11,7 @@ import { faHome, faSuitcase, faPalette, faFeatherPointed, faChessQueen, faPaperP
 const Sidebar = () => (
     <div className="nav-bar">
         <div className="mainAnya">
-            <a href="https://medium.com/@redayilmaz"
+            <a href="https://medium.com/@rabiaedayilmaz"
                 target="_blank" rel="noreferrer" />
         </div>
     <Link className="logo" to="/">
